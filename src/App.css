@@ -1,0 +1,29 @@
+@font-face {
+  font-family: "R-600";
+  src: url("./assets/fonts/RobotoCondensed-Bold.ttf");
+}
+
+@font-face {
+  font-family: "R-500";
+  src: url("./assets/fonts/RobotoCondensed-Medium.ttf");
+}
+
+@font-face {
+  font-family: "R-400";
+  src: url("./assets/fonts/RobotoCondensed-Regular.ttf");
+}
+
+@font-face {
+  font-family: "R-300";
+  src: url("./assets/fonts/RobotoCondensed-Light.ttf");
+}
+
+@font-face {
+  font-family: "R-200";
+  src: url("./assets/fonts/RobotoCondensed-ExtraLight.ttf");
+}
+
+@font-face {
+  font-family: "R-100";
+  src: url("./assets/fonts/RobotoCondensed-Thin.ttf");
+}

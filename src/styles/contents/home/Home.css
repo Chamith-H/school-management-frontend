@@ -1,0 +1,14 @@
+.Sub-Links {
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Sub-Links a {
+  text-decoration: none;
+  font-family: "R-400";
+  color: rgb(60, 60, 60);
+  font-size: 15px;
+}

@@ -1,0 +1,35 @@
+.Hero {
+  height: calc(100vh - 90px);
+  width: 100%;
+  background-image: url("../../../../assets/images/Hero.jpg");
+  background-size: cover;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: rgb(221, 221, 221);
+  background-position: top;
+  display: flex;
+  align-items: center;
+}
+
+.Hero-Buttons {
+  display: flex;
+}
+
+.Hero-Content h1 {
+  font-family: "R-500";
+  color: black;
+}
+
+.Hero-Content p {
+  font-family: "R-300";
+  color: black;
+  font-size: 18px;
+}
+
+.Hero-Content span {
+  color: blue;
+}
+
+.Hero-Content p span {
+  font-family: "R-400";
+}

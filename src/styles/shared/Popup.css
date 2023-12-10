@@ -1,0 +1,53 @@
+.Popup-Background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000069;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Popup {
+  width: 800px;
+  max-height: calc(100vh - 100px);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 7px 15px 0px #0000006d;
+}
+
+.Popup-Head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  padding-right: 4px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-color: rgb(219, 219, 219);
+}
+
+.Popup-Head h5 {
+  font-family: "R-400";
+  font-size: 17px;
+  margin-bottom: 0;
+  color: black;
+}
+
+.Popup-Head button {
+  border-style: none;
+  background-color: rgb(255, 106, 106);
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.Popup-Head button:hover {
+  background-color: red;
+}
+
+.Popup-Body {
+  background-color: rgb(255, 255, 255);
+}
